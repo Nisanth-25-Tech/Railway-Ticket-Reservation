@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 echo 'Downloading Railway Reservation source code'
-                checkout scm
+                checkout  scm
             }
         }
 
